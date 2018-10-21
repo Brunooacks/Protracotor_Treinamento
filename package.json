@@ -1,0 +1,28 @@
+{
+  "name": "aula02",
+  "version": "1.0.0",
+  "description": "aula 02 proctrator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "wdup": "webdriver-manager update"
+  },
+  "keywords": [
+    "qa",
+    "protractor",
+    "node",
+    "js",
+    "javascript",
+    "jasmine"
+  ],
+  "author": "Bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.2.0",
+    "protractor": "^5.4.1"
+  },
+  "dependencies": {
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
