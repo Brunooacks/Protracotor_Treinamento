@@ -3,12 +3,13 @@
 exports.config = {
     directConnect: true,
     framework: 'jasmine2',
-    specs: ['specs/*-spec.js'],
+    specs: ['specs/tasks-spec.js'],
     baseUrl: 'https://mark7.herokuapp.com',
     onPrepare: function(){
         browser.manage().timeouts().implicitlyWait(10000);
         browser.ignoreSynchronization = true;
 
+         TIMEOUT = 3000;
         var JasmineHtmlReporter = require('protractor-jasmine2-html-reporter');
 
         jasmine.getEnv().addReporter(new JasmineHtmlReporter({
